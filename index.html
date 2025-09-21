@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Name / Your Brand</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: #f5f5f5;
+      color: #333;
+    }
+    .container {
+      max-width: 800px;
+      width: 90%;
+      background: #fff;
+      padding: 20px;
+      margin: 40px 0;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 0 auto;
+    }
+    .name {
+      text-align: center;
+      font-size: 2em;
+      margin-top: 15px;
+    }
+    .bio {
+      text-align: center;
+      font-size: 1.2em;
+      margin: 15px 0;
+    }
+    .links {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    .link-btn {
+      padding: 10px 20px;
+      background: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .link-btn:hover {
+      background: #0056b3;
+    }
+    .footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #777;
+      text-align: center;
+    }
+  </style>
+</head>
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1336535084589720');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1336535084589720&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+<body>
+  <div class="container">
+    <img src="PROFILE_PICTURE_URL" alt="Your Name" class="profile-pic">
+    <div class="name">YOUR NAME</div>
+    <div class="bio">Short bio or description about what you do or offer.</div>
+
+    <div class="links">
+      <a href="FACEBOOK_PROFILE_LINK" class="link-btn">Facebook</a>
+      <a href="INSTAGRAM_LINK" class="link-btn">Instagram</a>
+      <a href="CONTACT_EMAIL_OR_PAGE" class="link-btn">Contact Me</a>
+      <!-- more links as needed -->
+    </div>
+  </div>
+
+  <div class="footer">
+    &copy; 2025 Your Name. All rights reserved.
+  </div>
+</body>
+</html>
